@@ -1,9 +1,19 @@
-streamlit>=1.32.0
+# requirements.txt - 智能行程规划 Agent 依赖列表
 
-langgraph>=0.0.40
+# Streamlit 框架
+streamlit
 
-langchain>=0.1.20
-langchain-core>=0.1.52
-langchain-openai>=0.1.6
+# LangChain/LangGraph 核心库
+langchain
+langchain-core
+langgraph
+pydantic
 
-python-dotenv>=1.0.1
+# LLM 供应商集成
+langchain-openai
+langchain-deepseek
+
+# 辅助库
+requests
+numpy
+python-dotenv
